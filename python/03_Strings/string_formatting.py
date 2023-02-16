@@ -3,9 +3,6 @@ https://www.hackerrank.com/challenges/python-string-formatting/problem
 '''
 
 
-from turtle import width
-
-
 def print_formatted(number):
     ''' f-string and rjust() '''
     width = len(f'{number:b}')
